@@ -8,9 +8,10 @@
 namespace Spryker\Zed\CategoryImage;
 
 use Spryker\Zed\CategoryImage\Dependency\Facade\CategoryImageToLocale;
+use Spryker\Zed\Kernel\AbstractBundleDependencyProvider;
 use Spryker\Zed\Kernel\Container;
 
-class CategoryImageDependencyProvider
+class CategoryImageDependencyProvider extends AbstractBundleDependencyProvider
 {
     public const FACADE_LOCALE = 'FACADE_LOCALE';
     /**
